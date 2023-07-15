@@ -1,0 +1,102 @@
+:root{
+   --primary-color: #65c0ba;
+   --titleFont: "Abril Fatface", sans-serif;
+   --textFont: "Mukta Mahee", sans-serif;
+   --second-color: white;
+   --spacing: 5px;
+}
+.first-section {
+  font-family: var(--titleFont);
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background: url(/img/1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 64px;
+}
+
+.nav-bar h1,i {
+  color: var(--second-color);
+  font-size: 1.5em;
+  z-index: 99;
+}
+
+.image-opacity {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.25);
+}
+.header-content {
+  margin-top: 50px;
+  color: var(--second-color);
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 99;
+  text-align: center;
+}
+
+.header-content h1 {
+  padding-bottom: 20px;
+  font-family: var(--titleFont);
+  font-size: 3em;
+  z-index: 99;
+}
+
+.header-content p {
+  padding-bottom: 50px;
+  font-family: var(--textFont);
+  font-size: 1em;
+  z-index: 99;
+}
+
+.header-content button {
+  width: 180px;
+  height: 50px;
+  margin: 0 auto;
+  font-family: var(--textFont);
+  letter-spacing: 0.2em;
+  border: 2px solid #e8e8e8;
+  border-radius: 3px;
+  color: #ffff;
+  background-color: rgba(0, 0, 0, 0);
+  z-index: 99;
+}
+
+.header-content p a {
+  color: rgba(215, 215, 215, 0.993);
+}
+.footer{
+  display: flex;
+  margin-top: 42%;
+  flex-direction: column;
+  justify-content: center;
+  /* border:  2px solid rebeccapurple; */
+  /* width: 10%; */
+  text-align: center;
+  
+  
+}
+.footer  p {
+  text-align: center;
+  color: var(--second-color);
+  font-family: var(--textFont);
+  font-size: 1rem;
+  
+}
+.footer  i{
+  font-size: 1rem;
+  color: var(--second-color);
+  rotate: 90deg;
+}
