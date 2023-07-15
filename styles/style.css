@@ -253,12 +253,14 @@
   top:50%;
   transform: translateY(-50%);
   right: 70%;
+  color: black;
 }
 .left-arrow i{
   position:absolute;
   top:50%;
   transform: translateY(-50%);
   left: 70%;
+  color: black;
 }
 
 .slider .third-img{
@@ -390,7 +392,7 @@ padding-right: 50px;
   font-family: var(--text-font);
   font-style: italic;
 }
-
+/* -------------------sixth section------------------- */
  .destination-col{
   display: flex;
   justify-content: center;
@@ -426,7 +428,7 @@ padding-right: 50px;
 
 }
 .dest-footer i{
-  color: var(--second-color);
+  color: var(--primary-color);
 }
 .review p{
   color: #ced4da;
@@ -434,11 +436,12 @@ padding-right: 50px;
 .dest-header h2{
   width: 50%;
   font-family: var(--title-font);
-  font-weight: 400;
-  font-size: 2.5rem;
+  font-weight: 900;
+  font-size: 2rem;
   padding-top: calc(var(--spacing)*4);
   padding-bottom: calc(var(--spacing)*4); 
   margin: 0 auto;
   text-align: center;
 
 }
+/* -----------------footer section------------------- */
