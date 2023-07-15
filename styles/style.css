@@ -224,7 +224,7 @@
   height: 30%;
   margin-bottom: 700px;
 }
-.international h1 , .blog>h1 {
+.international h1 , .blog>h1 , .customers h1{
   width: 50%;
   font-family: var(--title-font);
   font-weight: 900;
@@ -336,4 +336,109 @@
   margin-left: 20px;
  /* padding-bottom: 5px; */
  
+}
+/* ---------------------fifth section------------------ */
+.fifth-section{
+  background-color:#fafafa ;
+  width:100vw;
+  /* background-color: #e85c5c; */
+  border-top: 1px solid #e0e0e0
+
+}
+.customer-col {
+  /* border: 2px solid black; */
+  display: flex;
+  
+  justify-content:center;
+  /* background-color:red; */
+  margin-top: 50px;
+  text-align: center;
+  padding-bottom: 100px;
+  
+  
+}
+.customer-col .col{
+text-align:left ;
+/* border: 2px solid palevioletred; */
+padding-left: 40px;
+padding-right: 50px;
+}
+.customer-col img{
+  margin-bottom: 20px;
+  width: 15%;
+  border-radius: 50%;
+  text-align: left;
+
+}
+.customers h1{
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 100px;
+}
+.customer-col p{
+  font-family: var(--text-font);
+  font-size: 1rem;
+  line-height: 1.5;
+  font-style: italic;
+ 
+}
+.customer-col h3{
+  color: #adafb1;
+  text-align: left;
+  margin-top: 20px;
+ 
+  font-family: var(--text-font);
+  font-style: italic;
+}
+
+ .destination-col{
+  display: flex;
+  justify-content: center;
+  /* border: 1px solid black; */
+  margin-bottom: 150px;
+ }
+ .destination-col img{
+  width: 100%;
+ }
+ .dest-header{
+
+  margin-bottom: 40px;
+  margin-top: 70px;
+  /* border: 1px solid pink; */
+ }
+ 
+ .dest-header p{
+  width:30%;
+  margin: 0 auto;
+  text-align: center;
+  font-family: var(--text-font);
+  line-height: 1.5;
+  color:rgb(108, 107, 107);
+  
+ }
+.dest-footer{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.dest-img h2{
+  font-family: var(--title-font);
+
+}
+.dest-footer i{
+  color: var(--second-color);
+}
+.review p{
+  color: #ced4da;
+}
+.dest-header h2{
+  width: 50%;
+  font-family: var(--title-font);
+  font-weight: 400;
+  font-size: 2.5rem;
+  padding-top: calc(var(--spacing)*4);
+  padding-bottom: calc(var(--spacing)*4); 
+  margin: 0 auto;
+  text-align: center;
+
 }
