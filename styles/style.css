@@ -158,3 +158,57 @@
   padding-left: var(--spacing);
 }
 /* ---------------------------Section3 -----------------------*/
+.third-section {
+  width: 100vw;
+  /* height: 100vh; */
+  padding-top: calc(var(--spacing)*15) ; 
+  margin-top: calc(var(--spacing)*15) ; 
+  background-color: #fafafa;
+  /* padding-bottom: calc(var(--spacing)*15) ;  */
+  
+}
+.life-time{
+  text-align: center;
+  
+}
+.life-time h1 , .blog h1 {
+   font-size: 1.7rem;
+   font-weight: 700;
+   font-family: var(--title-font);
+   margin-bottom: var(--spacing);
+   }
+.p-life-time ,.p-international ,.p-bog {
+
+  font-size: 1rem;
+  line-height: 2rem;
+  font-family: var(--text-font);
+  
+}
+.boxes {
+  margin-top: calc(var(--spacing)*4);
+  display: flex;
+  justify-content: center;
+  text-align: center;
+   
+}
+.boxes h1{
+  font-family: var(--title-font);
+  font-weight: 900;
+  font-size: 1.4rem;
+  padding-top: calc(var(--spacing)*4);
+  padding-bottom: calc(var(--spacing)*4);
+}
+.boxes div{
+  margin-top: calc(var(--spacing)*6);
+  
+}
+.boxes p{
+   font-size: 1rem;
+  line-height: 2rem;
+  font-family: var(--text-font);
+}
+.boxes img{
+  width: 30%;
+
+}
+/* ---------------forth section------------ */
