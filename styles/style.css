@@ -380,8 +380,9 @@ padding-right: calc(var(--spacing)*10);
 }
 .customer-col img{
   margin-bottom: calc(var(--spacing)*4);
-  width: 15%;
-  border-radius: 50%;
+  width: 20%;
+  height: 20%;
+  border-radius: 100%;
   text-align: left;
 
 }
