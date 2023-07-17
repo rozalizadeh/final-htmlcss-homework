@@ -387,6 +387,8 @@ padding-right: calc(var(--spacing)*10);
 
 }
 .customers h1{
+  font-family: var(--titleFont);
+  font-weight: 300;
   margin: 0 auto;
   text-align: center;
   padding-top: calc(var(--spacing)*20);
