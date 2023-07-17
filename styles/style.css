@@ -79,7 +79,7 @@
 }
 .scroll-down{
   display: flex;
-  margin-top: 42%;
+  margin-top: 38%;
   flex-direction: column;
   justify-content: center;
   /* border:  2px solid rebeccapurple; */
@@ -208,7 +208,7 @@
   font-family: var(--textFont);
 }
 .boxes img{
-  width: 30%;
+  width: 25%;
 
 }
 /* ---------------forth section------------ */
