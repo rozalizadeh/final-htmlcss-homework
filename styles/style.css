@@ -491,19 +491,25 @@ padding-right: calc(var(--spacing)*10);
 input{
   background-color:  rgb(14, 13, 13);
   border: none;
+  outline: 0;
   color: white;
   font-style: italic;
   height: calc(var(--spacing)*8);
+  width: 80%;
   }
 .input-col{
+  /* background-color: aquamarine;
+   */
   display: flex;
   justify-content: space-between;
   border-bottom: 2px solid gray;
 
 }
 .input-col i{
-  size: 36px;
+  size: 30px;
   color:white;
+  margin-top: 10px;
+  margin-right: 20px;
 }
 .copy{
   text-align: center;
