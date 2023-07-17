@@ -174,14 +174,14 @@
 .life-time h1 , .blog h1 {
    font-size: 1.7rem;
    font-weight: 700;
-   font-family: var(--title-font);
+   font-family: var(--titleFont);
    margin-bottom: var(--spacing);
    }
 .p-life-time ,.p-international ,.p-bog {
 
   font-size: 1rem;
   line-height: 2rem;
-  font-family: var(--text-font);
+  font-family: var(--textFont);
   
 }
 .boxes {
@@ -192,7 +192,7 @@
    
 }
 .boxes h1{
-  font-family: var(--title-font);
+  font-family: var(--titleFont);
   font-weight: 900;
   font-size: 1.4rem;
   padding-top: calc(var(--spacing)*4);
@@ -205,7 +205,7 @@
 .boxes p{
    font-size: 1rem;
   line-height: 2rem;
-  font-family: var(--text-font);
+  font-family: var(--textFont);
 }
 .boxes img{
   width: 30%;
@@ -226,7 +226,7 @@
 }
 .international h1 , .blog>h1 , .customers h1{
   width: 50%;
-  font-family: var(--title-font);
+  font-family: var(--titleFont);
   font-weight: 900;
   font-size: 3.5rem;
   padding-top: calc(var(--spacing)*4);
@@ -378,7 +378,7 @@ padding-right: 50px;
   padding-top: 100px;
 }
 .customer-col p{
-  font-family: var(--text-font);
+  font-family: var(--textFont);
   font-size: 1rem;
   line-height: 1.5;
   font-style: italic;
@@ -389,7 +389,7 @@ padding-right: 50px;
   text-align: left;
   margin-top: 20px;
  
-  font-family: var(--text-font);
+  font-family: var(--textFont);
   font-style: italic;
 }
 /* -------------------sixth section------------------- */
@@ -414,7 +414,7 @@ padding-right: 50px;
   width:30%;
   margin: 0 auto;
   text-align: center;
-  font-family: var(--text-font);
+  font-family: var(--textFont);
   line-height: 1.5;
   color:rgb(108, 107, 107);
   
@@ -425,7 +425,7 @@ padding-right: 50px;
   margin-top: 10px;
 }
 .dest-img h2{
-  font-family: var(--title-font);
+  font-family: var(--textFont);
 
 }
 .dest-footer i{
@@ -436,7 +436,7 @@ padding-right: 50px;
 }
 .dest-header h2{
   width: 50%;
-  font-family: var(--title-font);
+  font-family: var(--titleFont);
   font-weight: 900;
   font-size: 2rem;
   padding-top: calc(var(--spacing)*4);
@@ -464,7 +464,7 @@ padding-right: 50px;
 }
 .footer h2{
  color:white;
- font-family: var(--title-font);
+ font-family: var(--titleFont);
  font-weight: 300;
  padding-bottom: 20px;
  
@@ -472,7 +472,7 @@ padding-right: 50px;
 .footer p{
   color:gray;
   padding-bottom: 10px;
-  font-family: var(--text-font);
+  font-family: var(--textFont);
   padding-bottom: 15px;
 }
 input{
